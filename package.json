@@ -76,6 +76,7 @@
     "prepublish": "run-s build",
     "prestart": "run-s build",
     "publish": "git push && git push --tags && gh-release",
+    "prepare": "run-s build",
     "react-demo": "cd example && yarn && yarn start",
     "release": "node ./script/release.js",
     "lint": "eslint src",
